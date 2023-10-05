@@ -1,6 +1,5 @@
 let word = 'neuquen'
 let reverseWord = ''
-let palindromeWord = []
 
 const isPalindrome = () => {
     for (let i = word.length; i >= 0; --i) {
