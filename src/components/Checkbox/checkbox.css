@@ -1,0 +1,36 @@
+.label-checkbox {
+    display: block;
+    padding-bottom: 10px;
+    color: #555555;
+    font-size: 18px;
+}
+
+.label-checkbox:first-child {
+    padding-top: 20px;
+}
+
+.aside-filter-checkbox {
+    appearance: none;
+    width: 24px;
+    height: 24px;
+    background-color: #000000;
+    border-radius: 4px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px;
+    position: relative;
+}
+
+.aside-filter-checkbox:checked::before {
+    content: '';
+    position: absolute;
+    background-image: url('../../assets/check.png');
+    width: 24px;
+    height: 24px;
+}
+
+@media (min-width: 768px) {
+    .label-checkbox {
+        font-size: 12px;
+    }
+}

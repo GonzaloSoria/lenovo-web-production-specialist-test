@@ -1,0 +1,21 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.header-navbar {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.link {
+    padding: 0 8px;
+}
+
+@media (min-width: 360px) and (max-width: 768px) {
+    .link {
+        padding-left: 10px;
+    }
+}

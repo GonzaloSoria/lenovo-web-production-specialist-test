@@ -1,0 +1,59 @@
+aside {
+    padding-bottom: 10px;
+}
+
+.accordion {
+    padding: 20px 0;
+    border-bottom: 1px solid #BCBCBC;
+}
+
+.accordion li {
+    list-style: none;
+    width: 100%;
+}
+
+.accordion .price-label {
+    position: relative;
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.accordion .price-label::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    background-image: url('../../assets/arrow.svg');
+    width: 17px;
+    height: 9px;
+    transform: rotate(180deg);
+    transition: rotate 400ms ease;
+}
+
+.price-input-radio {
+    display: none;
+}
+
+.options {
+    max-height: 0;
+    overflow: hidden;
+}
+
+.price-input-radio:checked + .price-label + .options {
+    max-height: 200px;
+}
+
+.price-input-radio:checked + .price-label::after {
+    transform: rotate(0deg);
+}
+
+.see-more {
+    color: #0D5C91;
+}
+
+@media (min-width: 768px) {
+    aside {
+        width: 20%;
+    }
+}

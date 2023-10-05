@@ -1,0 +1,44 @@
+.sub-menu {
+    background-color: #F8F8F8;
+}
+
+.sub-menu ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.sub-menu li {
+    padding: 8px;
+}
+
+.sub-menu a {
+    color: #000000;
+    text-transform: capitalize;
+    font-size: 15px;
+}
+
+.sub-menu ul li:last-child a {
+    color: #E02020;
+}
+
+@media (min-width: 360px) and (max-width: 768px) {
+    .sub-menu li {
+        padding: 10px 15px;
+    }
+
+    .sub-menu a {
+        font-size: 15px;
+    }
+}
+
+@media (min-width: 769px) {
+    .sub-menu li {
+        padding: 10px 30px;
+    }
+
+    .sub-menu a {
+        font-size: 13px;
+    }
+}

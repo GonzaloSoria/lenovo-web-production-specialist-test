@@ -1,0 +1,24 @@
+.dashboard {
+    padding: 30px 10px 0 10px;
+}
+
+.dashboard h2 {
+    font-size: 30px;
+    color: #000000;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #BCBCBC  ;
+}
+
+.dashboard-content {
+    padding-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+    .dashboard-container {
+        padding: 0 35px;
+    }
+    .dashboard-content {
+        display: flex;
+        justify-content: space-between;
+    }
+}

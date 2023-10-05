@@ -1,0 +1,48 @@
+.banner {
+    background-color: #AF0E4E ;
+    padding: 20px 0;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.banner p {
+    font-size: 18px;
+}
+
+.banner a {
+    color: #FFFFFF;
+    text-decoration: underline;
+    position: relative;
+    transition: all 1s ease;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.banner a::after {
+    content: '>';
+    position: absolute;
+    top: 1px;
+    right: -12px;
+    transition: all 400ms ease;
+}
+
+.banner a:hover::after {
+    right: -15px;
+}
+
+@media (min-width: 768px) {
+    .banner {
+        display: flex; 
+        justify-content: center;
+        align-items: center;
+    }
+
+    .banner p {
+        font-size: 16px;
+    }
+
+    .banner a {
+        font-size: 16px;
+        padding-left: 15px;
+    }
+}
