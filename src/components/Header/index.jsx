@@ -1,5 +1,4 @@
 import React from 'react'
-import { NavbarItems } from '../NavbarItems'
 import logo from '../../assets/lenovo-logo.png'
 import compare from '../../assets/compare.svg'
 import wishlist from '../../assets/wishlist.svg'
@@ -8,7 +7,6 @@ import contact from '../../assets/contact.svg'
 import rewards from '../../assets/rewards.svg'
 import user from '../../assets/user.svg'
 import cart from '../../assets/cart.svg'
-import search from '../../assets/search.png'
 import './header.css'
 
 export const Header = () => {

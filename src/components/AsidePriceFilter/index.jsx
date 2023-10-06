@@ -1,7 +1,6 @@
 import React from 'react'
-import arrow from '../../assets/arrow.svg'
-import './asidePriceFilter.css'
 import { Checkbox } from '../Checkbox'
+import './asidePriceFilter.css'
 
 export const AsidePriceFilter = () => {
     const optionsLabel = [{
